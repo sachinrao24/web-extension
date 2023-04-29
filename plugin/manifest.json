@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Twitter Cleaner",
+    "version": "1.0",
+  
+    "description": "Clean's the twitter negativity",
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["assets/jquery-3.5.1.min.js" , "twitterCleaner.js" ]
+      }
+    ] ,
+    
+    "permissions": [
+      "http://localhost/http://496f-34-125-64-62.ngrok.io"  , "http://f273604eab9f.ngrok.io/http://496f-34-125-64-62.ngrok.io"
+    ]
+  
+  
+  }
